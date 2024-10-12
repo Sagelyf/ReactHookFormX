@@ -81,4 +81,3 @@ Modern UI Elements:
 	•	Visuals: Include relevant screenshots or animations for better UX.
 	•	Badges: Add relevant project badges (e.g., Node.js version, Snyk scan status, etc.).
 
-You can update the visual elements and customize it further to suit your specific project aesthetic, but this should serve as a clean and modern base!
