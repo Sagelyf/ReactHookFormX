@@ -96,18 +96,21 @@ cd ReactHookFormX
 
  2. Make the Security Scan Script Executable:
 
-
+---
 ```
 chmod +x security-scan.js
 ```
 ---
-	3. Run the Security Scan:
----
 
+3. Run the Security Scan:
+
+   
+---
 ```
 ./security-scan.js
 ```
 ---
+
 Configuration
 
 By default, the tool creates an ESLint configuration with security best practices enabled:
