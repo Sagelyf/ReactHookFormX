@@ -3,8 +3,8 @@
 
 name: Node.js Package
 
-on: 10/12/2024
-  release: 1.0.0
+on: 
+  release: 
     types: [created]
 
 jobs:
