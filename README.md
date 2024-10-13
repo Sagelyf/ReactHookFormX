@@ -154,7 +154,7 @@ This README provides a comprehensive, authentic overview of the ReactHookFormX S
 
 We welcome contributions from the community! If you'd like to get involved, check out our [contribution guidelines](#contributing). Need help? Feel free to [open an issue](https://github.com/Sagelyf/ReactHookFormX/issues).
 
-📧 **Contact us**: Have questions or suggestions? Reach out at [email@example.com](mailto:email@example.com).
+📧 **Contact us**: Have questions or suggestions? Reach out at [mcochran@sagelyf.com](mailto:mcochran@sagelyf.com).
 
 ---
 
@@ -168,8 +168,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <p align="center">
   <a href="https://github.com/Sagelyf/ReactHookFormX"><img src="https://img.shields.io/github/stars/Sagelyf/ReactHookFormX?style=social" alt="GitHub Stars"></a>
-  <a href="https://twitter.com/yourhandle"><img src="https://img.shields.io/twitter/follow/yourhandle?style=social" alt="Twitter"></a>
-  <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin"></a>
+  <a href="https://twitter.com/igeniusly"><img src="https://img.shields.io/twitter/follow/igeniusly?style=social" alt="Twitter"></a>
+  <a href="https://linkedin.com/in/mattcochran93"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin"></a>
 </p>
 
 
