@@ -201,8 +201,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <a href="https://linkedin.com/in/mattcochran93"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin"></a>
 </p>
 ```
----
-```
 [def]: https://github.com/Sagelyf/ReactHookFormX/blob/main/workflows/images/CleanShot%202024-10-12%20at%2017.26.56.png?raw=true
-```
----
