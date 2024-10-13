@@ -1,6 +1,6 @@
-# ReactHookFormX Security Scan Tool 🚀
+## ReactHookFormX Security Scan Tool 🚀
 
-![Security Scan](https://sagelyf.com)
+[Security Scan][def]
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/Sagelyf/ReactHookFormX/ci.yml?branch=main)](https://github.com/Sagelyf/ReactHookFormX/actions)
@@ -19,45 +19,49 @@ Enhancing the safety of your code by detecting security vulnerabilities in your 
 > - [License](#license)  
 
 
-# Welcome
+### Welcome
 
 Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
 
-Here’s a tailored README for your project ReactHookFormX, incorporating authentic and relevant details based on the nature of the tool.
 
-ReactHookFormX Security Scan Tool 🚀
+
+# ReactHookFormX Security Scan Tool 🚀
 
 This project provides an automated security scan tool for the react-hook-form library used in the ReactHookFormX project. It integrates key security analysis tools like ESLint, npm audit, and Snyk to ensure that the code and dependencies used in the ReactHookFormX are free from known security vulnerabilities and potential threats.
 
-🏗️ Architecture Overview
+## 🏗️ Architecture Overview
 
 This security scan tool operates in a structured manner to automate the identification of security risks:
 
-	1.	Dependency Management:
-	•	It checks if react-hook-form is installed. If not, it installs it automatically.
-	•	It ensures the necessary security tools are available, such as ESLint, eslint-plugin-security, and Snyk.
-	2.	Configuration Setup:
-	•	An ESLint configuration is generated with a security plugin enabled to identify vulnerabilities in the codebase.
-	3.	Cloning the Source Code:
-	•	The tool clones the official react-hook-form repository into a temporary directory to perform an in-depth scan of the source code.
-	4.	Security Scanning:
-	•	ESLint checks the cloned source code for security issues, such as unsafe coding practices.
-	•	npm audit examines project dependencies for known vulnerabilities.
-	•	Snyk performs an advanced security scan, identifying issues in both direct and indirect dependencies.
-	5.	Reports Generation:
-	•	Outputs results from ESLint, npm audit, and Snyk in JSON format for easy integration into CI/CD systems or manual review.
-	6.	Optional Cleanup:
-	•	After the scan is completed, the temporary directory can be automatically removed to clean up the working environment.
+ 1. Dependency Management:
+ 	- It checks if react-hook-form is installed. If not, it installs it automatically
+	- It ensures the necessary security tools are available, such as ESLint, eslint-plugin-security, and Snyk.
+2.	Configuration Setup:
+	- An ESLint configuration is generated with a security plugin enabled to identify vulnerabilities in the codebase.
+3. Cloning the Source Code:
+	- The tool clones the official react-hook-form repository into a temporary directory to perform an in-depth scan of the source code.
+4.	Security Scanning:
+	- ESLint checks the cloned source code for security issues, such as unsafe coding practices.
+	- pm audit examines project dependencies for known vulnerabilities.
+	- Snyk performs an advanced security scan, identifying issues in both direct and indirect dependencies.
+5.	Reports Generation:
+	• Outputs results from ESLint, npm audit, and Snyk in JSON format for easy integration into CI/CD systems or manual review.
+6.	Optional Cleanup:
+	• After the scan is completed, the temporary directory can be automatically removed to clean up the working environment.
 
-✨ Key Features
+## ✨ Key Features
 
-	•	Automated Dependency Installation: Ensures that react-hook-form and security tools are installed as needed.
-	•	Security Scans:
-	•	ESLint: Analyzes source code for potential security vulnerabilities.
-	•	npm audit: Identifies vulnerabilities in project dependencies.
-	•	Snyk: Performs an in-depth security check for both direct and transitive dependencies.
-	•	Security Reports: Generates JSON-based reports for easy integration with automation systems or manual analysis.
-	•	Customizable ESLint Config: Auto-generates .eslintrc.json with security-focused linting rules.
+- Automated Dependency Installation: Ensures that react-hook-form and security 		tools are installed as needed.
+- Security Scans:
+	- ESLint: 
+	Analyzes source code for potential security vulnerabilities.
+	- npm audit: 
+	Identifies vulnerabilities in project dependencies.
+	- Snyk: 
+	Performs an in-depth security check for both direct and transitive dependencies.
+- Security Reports: 
+	Generates JSON-based reports for easy integration with automation systems or manual analysis.
+	- Customizable ESLint Config: Auto-generates .eslintrc.json with security-focused linting rules.
 
 🛠️ Getting Started
 
@@ -167,3 +171,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <a href="https://twitter.com/yourhandle"><img src="https://img.shields.io/twitter/follow/yourhandle?style=social" alt="Twitter"></a>
   <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin"></a>
 </p>
+
+
+[def]: https://github.com/Sagelyf/ReactHookFormX/blob/main/workflows/images/CleanShot%202024-10-12%20at%2017.26.56.png?raw=true
