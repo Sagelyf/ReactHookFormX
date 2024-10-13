@@ -1,4 +1,4 @@
-## ReactHookFormX Security Scan Tool 🚀
+# ReactHookFormX Security Scan Tool 🚀
 
 [Security Scan][def]
 
@@ -7,25 +7,32 @@
 [![npm version](https://img.shields.io/npm/v/react-hook-form.svg?style=flat)](https://www.npmjs.com/package/react-hook-form)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Sagelyf/ReactHookFormX/pulls)
 
-🔐 **Automated security scans for react-hook-form**  
+## 🔐 **Automated security scans for react-hook-form**  
 Enhancing the safety of your code by detecting security vulnerabilities in your `react-hook-form` implementation and dependencies.
 
 ---
 
 > **Quick Links**:  
-> - [Installation](#installation)  
-> - [Usage](#usage)  
-> - [Contributing](#contributing)  
-> - [License](#license)  
-
+># Table of Contents
+>1. [ReactHookFormX Security Scan Tool 🚀](#reacthookformx-security-scan-tool-🚀)
+>2. [🔐 Automated Security Scans](#-automated-security-scans-for-react-hook-form)
+>3. [🏗️ Architecture Overview](#architecture-overview)
+>4. [✨ Key Features](#key-features)
+>5. [🛠️ Getting Started](#getting-started)
+    >- [Prerequisites](#prerequisites)
+    >- [Installation](#installation)
+>6. [📊 Reports](#reports)
+>7. [📦 Project Structure](#project-structure)
+>8. [🚀 Future Enhancements](#future-enhancements)
+>9. [🙌 Contributing & Support](#contributing--support)
+>10. [⚖️ License](#license)
+>11. [Made with ❤️ by Matthew Cochran](#made-with-️-by-matthew-cochran)
 
 ### Welcome
 
 Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
 
-
-
-# ReactHookFormX Security Scan Tool 🚀
+## ReactHookFormX Security Scan Tool 🚀
 
 This project provides an automated security scan tool for the react-hook-form library used in the ReactHookFormX project. It integrates key security analysis tools like ESLint, npm audit, and Snyk to ensure that the code and dependencies used in the ReactHookFormX are free from known security vulnerabilities and potential threats.
 
@@ -33,21 +40,22 @@ This project provides an automated security scan tool for the react-hook-form li
 
 This security scan tool operates in a structured manner to automate the identification of security risks:
 
- 1. Dependency Management:
- 	- It checks if react-hook-form is installed. If not, it installs it automatically
-	- It ensures the necessary security tools are available, such as ESLint, eslint-plugin-security, and Snyk.
-2.	Configuration Setup:
-	- An ESLint configuration is generated with a security plugin enabled to identify vulnerabilities in the codebase.
-3. Cloning the Source Code:
-	- The tool clones the official react-hook-form repository into a temporary directory to perform an in-depth scan of the source code.
-4.	Security Scanning:
-	- ESLint checks the cloned source code for security issues, such as unsafe coding practices.
-	- pm audit examines project dependencies for known vulnerabilities.
-	- Snyk performs an advanced security scan, identifying issues in both direct and indirect dependencies.
-5.	Reports Generation:
-	• Outputs results from ESLint, npm audit, and Snyk in JSON format for easy integration into CI/CD systems or manual review.
-6.	Optional Cleanup:
-	• After the scan is completed, the temporary directory can be automatically removed to clean up the working environment.
+	1. Dependency Management:
+ 		- It checks if react-hook-form is installed. If not, it installs it automatically
+		- It ensures the necessary security tools are available, such as ESLint, eslint-plugin-security, and Snyk.
+	2. Configuration Setup:
+		- An ESLint configuration is generated with a security plugin enabled to identify vulnerabilities in the codebase.
+	3. Cloning the Source Code:
+		- The tool clones the official react-hook-form repository into a temporary directory to perform an in-depth scan of the source code.
+	4. Security Scanning:
+		- ESLint checks the cloned source code for security issues, such as unsafe coding practices.
+		- pm audit examines project dependencies for known vulnerabilities.
+		- Snyk performs an advanced security scan, identifying issues in both direct and indirect dependencies.
+	5. Reports Generation:
+		• Outputs results from ESLint, npm audit, and Snyk in JSON format for easy integration into CI/CD systems or manual review.
+	
+ 	Optional Cleanup:
+		• After the scan is completed, the temporary directory can be automatically removed to clean up the working environment.
 
 ## ✨ Key Features
 
@@ -63,25 +71,31 @@ This security scan tool operates in a structured manner to automate the identifi
 	Generates JSON-based reports for easy integration with automation systems or manual analysis.
 	- Customizable ESLint Config: Auto-generates .eslintrc.json with security-focused linting rules.
 
-🛠️ Getting Started
+### 🛠️ Getting Started
 
-Prerequisites
+#### Prerequisites
 
 Before running the security scan, ensure the following are installed on your system:
 
-	•	Node.js (v14.x or later)
-	•	npm or yarn
-	•	Snyk CLI (will be installed automatically if not present)
+---
+	• Node.js (v14.x or later)
+	• npm or yarn
+	• Snyk CLI (will be installed automatically if not present)
+---
 
 Installation
 
-	1.	Clone the ReactHookFormX Repository:
+1. Clone the ReactHookFormX Repository:
 
+---
+```
 git clone https://github.com/Sagelyf/ReactHookFormX.git
 cd ReactHookFormX
+```
+---
 
+ 2. Make the Security Scan Script Executable:
 
-	2.	Make the Security Scan Script Executable:
 
 ```
 chmod +x security-scan.js
