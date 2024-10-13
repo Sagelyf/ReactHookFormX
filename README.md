@@ -194,11 +194,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Made with ❤️ by [Matthew Cochran](https://github.com/Sagelyf) and contributors.
 
-```
+---
+
+
 <p align="center">
   <a href="https://github.com/Sagelyf/ReactHookFormX"><img src="https://img.shields.io/github/stars/Sagelyf/ReactHookFormX?style=social" alt="GitHub Stars"></a>
   <a href="https://twitter.com/igeniusly"><img src="https://img.shields.io/twitter/follow/igeniusly?style=social" alt="Twitter"></a>
   <a href="https://linkedin.com/in/mattcochran93"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin"></a>
 </p>
-```
+
+
 [def]: https://github.com/Sagelyf/ReactHookFormX/blob/main/workflows/images/CleanShot%202024-10-12%20at%2017.26.56.png?raw=true
