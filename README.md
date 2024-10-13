@@ -83,34 +83,41 @@ cd ReactHookFormX
 
 	2.	Make the Security Scan Script Executable:
 
+```
 chmod +x security-scan.js
+```
+---
+	3. Run the Security Scan:
+---
 
-
-	3.	Run the Security Scan:
-
+```
 ./security-scan.js
-
-
-
+```
+---
 Configuration
 
 By default, the tool creates an ESLint configuration with security best practices enabled:
 
+---
+```
 {
   "plugins": ["security"],
   "extends": ["plugin:security/recommended"]
 }
+```
+---
 
 You can modify this .eslintrc.json file to meet your specific project requirements.
 
-📊 Reports
+### 📊 Reports
 
 Upon completion of the scan, you will find three reports:
 
 	•	eslint-report.json: Contains results of the ESLint security scan.
 	•	audit-report.json: Provides the results from npm audit, detailing vulnerabilities in the dependencies.
 	•	snyk-report.json: The Snyk scan report, identifying vulnerabilities in both direct and transitive dependencies.
-
+---
+```
 📦 Project Structure
 
 ├── .eslintrc.json           # ESLint configuration for security scanning
@@ -121,14 +128,16 @@ Upon completion of the scan, you will find three reports:
 ├── audit-report.json        # Output from npm audit
 ├── snyk-report.json         # Output from Snyk security scan
 └── README.md                # This README file
+```
+---
 
-🚀 Future Enhancements
+### 🚀 Future Enhancements
 
 	•	CI/CD Integration: Automate security scanning for ReactHookFormX in popular CI/CD pipelines like GitHub Actions or Jenkins.
 	•	Advanced Reporting: Add options for HTML or CSV reports for easier visualization.
 	•	Notifications: Implement real-time notifications (Slack, email) on vulnerability detection.
 
-🧑‍💻 Contributing
+#### 🧑‍💻 Contributing
 
 Contributions are welcome! If you would like to contribute to the development of this security scan tool for ReactHookFormX, please feel free to fork the repository, create a branch, and submit a pull request.
 
@@ -138,7 +147,7 @@ Contributions are welcome! If you would like to contribute to the development of
 	4.	Push to the branch (git push origin feature/your-feature).
 	5.	Open a Pull Request.
 
-📄 License
+#### 📄 License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
@@ -146,8 +155,10 @@ This README provides a comprehensive, authentic overview of the ReactHookFormX S
 
 ### Jump right in
 
+---
+```
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Create your first site</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="getting-started/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
-
+```
 ---
 
 ## 🙌 Contributing & Support
@@ -166,11 +177,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Made with ❤️ by [Matthew Cochran](https://github.com/Sagelyf) and contributors.
 
+```
 <p align="center">
   <a href="https://github.com/Sagelyf/ReactHookFormX"><img src="https://img.shields.io/github/stars/Sagelyf/ReactHookFormX?style=social" alt="GitHub Stars"></a>
   <a href="https://twitter.com/igeniusly"><img src="https://img.shields.io/twitter/follow/igeniusly?style=social" alt="Twitter"></a>
   <a href="https://linkedin.com/in/mattcochran93"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin"></a>
 </p>
-
-
+```
+---
+```
 [def]: https://github.com/Sagelyf/ReactHookFormX/blob/main/workflows/images/CleanShot%202024-10-12%20at%2017.26.56.png?raw=true
+```
+---
